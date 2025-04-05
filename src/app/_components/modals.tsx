@@ -1,5 +1,5 @@
 "use client";
-import "./modal-web.css";
+import "./modals.css";
 
 export function ModalWeb() {
   const handleModalClose = () => {

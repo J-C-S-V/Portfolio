@@ -1,7 +1,7 @@
 import Projects from "./_components/projects";
 import Contact from "./_components/contact";
 import Footer from "./_components/footer";
-import { ModalEmail, ModalWeb, ModalApps } from "./_components/modal-web";
+import { ModalEmail, ModalWeb, ModalApps } from "./_components/modals";
 
 export default function Home() {
   return (
