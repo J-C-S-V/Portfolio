@@ -1,0 +1,91 @@
+/* This wasn't built with mobile first approach because data shows that recruiters
+   are more likely to use a desktop or laptop to view portfolios.
+/* The styles are designed to be responsive, but the initial design is for larger screens. */
+
+/* START CSS RESET */
+
+:root {
+  --blue-one: #4c39ff;
+  --blue-two: #090979;
+  --black-one: #000000;
+  --black-two: #29292c;
+  --blue-four: #32a6ff;
+  --grey-one: #e1e1e1;
+  --background: radial-gradient(circle, #4c39ff 0%, #090979 54%, #000000 100%);
+  --foreground: #ededed;
+  --font-inter: "Inter", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: radial-gradient(
+      circle,
+      #4c39ff 0%,
+      #090979 54%,
+      #000000 100%
+    );
+    --foreground: #ededed;
+  }
+
+  .navbar__links:visited {
+    color: var(--foreground);
+  }
+  .navbar__links {
+    color: var(--foreground);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  min-height: 100vh;
+}
+
+/* END CSS RESET */
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  height: 100vh;
+  /* border: 2px dashed black; */
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.p {
+  text-align: center;
+  width: 40%;
+}

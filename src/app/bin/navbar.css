@@ -1,0 +1,26 @@
+.navbar {
+  padding: 2rem 0px;
+}
+.navbar__ul {
+  display: flex;
+  justify-content: center;
+  gap: 20rem;
+}
+.navbar__links {
+  text-decoration: none;
+}
+
+.navbar__lis {
+  list-style: none;
+}
+
+.navbar__links {
+  color: var(--foreground);
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar__links:visited {
+  color: var(--foreground);
+}

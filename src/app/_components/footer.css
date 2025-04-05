@@ -1,0 +1,10 @@
+footer {
+  justify-self: flex-end;
+}
+
+.footer__text {
+  color: var(--foreground);
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 1rem;
+}
