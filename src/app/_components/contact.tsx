@@ -3,15 +3,14 @@ import "./contact.css";
 
 export default function Home() {
   return (
-    <main className="card-container">
-      <div className="flash"></div>
+    <article className="card-container">
       <div className="line"></div>
       <div>
-        <div className="text-picture-container">
-          <div className="text-container">
-            <div className="card-name">Juan Sanchez</div>
-            <div className="card-title">Front-end developer</div>
-          </div>
+        <section className="text-picture-container">
+          <header className="text-container">
+            <h2 className="card-name">Juan Sanchez</h2>
+            <h3 className="card-title">Front-end developer</h3>
+          </header>
           <div>
             <Image
               className="card__img"
@@ -21,14 +20,14 @@ export default function Home() {
               height={120}
             />
           </div>
-        </div>
-        <div className="text-description">
+        </section>
+        <p className="text-description">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius nisi
           dolorem dolores ullam omnis sed excepturi error, sint aperiam
           accusamus, quia laborum maiores consectetur voluptate consequuntur
           placeat sit. Non, corrupti!
-        </div>
+        </p>
       </div>
-    </main>
+    </article>
   );
 }

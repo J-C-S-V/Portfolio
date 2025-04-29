@@ -3,8 +3,7 @@ footer {
 }
 
 .footer__text {
-  color: var(--foreground);
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   text-align: center;
   padding: 1rem;
 }

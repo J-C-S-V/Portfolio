@@ -1,16 +1,30 @@
+"use client";
+import { useState } from "react";
 import Projects from "./_components/projects";
 import Contact from "./_components/contact";
 import Footer from "./_components/footer";
-import { ModalEmail, ModalWeb, ModalApps } from "./_components/modals";
+import { Modal } from "./_components/modal";
 
 export default function Home() {
+  const [modal, setModal] = useState<"web" | "email" | "apps" | null>(null);
+
   return (
     <div className="page-container">
-      <ModalWeb />
-      <ModalEmail />
-      <ModalApps />
+      <Modal
+        title={
+          modal === "web"
+            ? "Web Development"
+            : modal === "email"
+            ? "Email Development"
+            : modal === "apps"
+            ? "Apps Development"
+            : ""
+        }
+        isOpen={modal !== null}
+        onClose={() => setModal(null)}
+      />
       <div className="content-container">
-        <Projects />
+        <Projects onOpenModal={setModal} />
         <Contact />
       </div>
       <div className="minigame-container">{/* <Minigame /> */}</div>

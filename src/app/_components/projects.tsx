@@ -2,22 +2,11 @@
 import Image from "next/image";
 import "./projects.css";
 
-export default function Contact() {
-  const handleModalOpen = () => {
-    const modal = document.querySelector(".modal-container");
-    modal?.classList.add("active");
-  };
+type ProjectsProps = {
+  onOpenModal: (type: "web" | "email" | "apps") => void;
+};
 
-  const handleModalOpenEmail = () => {
-    const modal = document.querySelector(".modal-container-email");
-    modal?.classList.add("active");
-  };
-
-  const handleModalOpenApps = () => {
-    const modal = document.querySelector(".modal-container-apps");
-    modal?.classList.add("active");
-  };
-
+export default function Projects({ onOpenModal }: ProjectsProps) {
   return (
     <div className="projects-container">
       <h2 className="h2">Projects</h2>
@@ -29,7 +18,7 @@ export default function Contact() {
             alt="Juan Sanchez profile picture"
             width={200}
             height={200}
-            onClick={handleModalOpen}
+            onClick={() => onOpenModal("web")}
           />
         </div>
         <div className="image-container-2" data-tooltip="Email Development">
@@ -39,7 +28,7 @@ export default function Contact() {
             alt="Juan Sanchez profile picture"
             width={200}
             height={200}
-            onClick={handleModalOpenEmail}
+            onClick={() => onOpenModal("email")}
           />
         </div>
         <div className="image-container-3" data-tooltip="Apps Development">
@@ -49,7 +38,7 @@ export default function Contact() {
             alt="Juan Sanchez profile picture"
             width={200}
             height={200}
-            onClick={handleModalOpenApps}
+            onClick={() => onOpenModal("apps")}
           />
         </div>
       </aside>
