@@ -15,7 +15,7 @@ export default function Projects({ onOpenModal }: ProjectsProps) {
           <Image
             className="laptops laptop-1"
             src="/laptop.svg"
-            alt="Juan Sanchez profile picture"
+            alt="Laptop for web development"
             width={200}
             height={200}
             onClick={() => onOpenModal("web")}
@@ -25,7 +25,7 @@ export default function Projects({ onOpenModal }: ProjectsProps) {
           <Image
             className="laptops laptop-2"
             src="/laptop_2.svg"
-            alt="Juan Sanchez profile picture"
+            alt="Laptop for email development"
             width={200}
             height={200}
             onClick={() => onOpenModal("email")}
@@ -35,7 +35,7 @@ export default function Projects({ onOpenModal }: ProjectsProps) {
           <Image
             className="laptops laptop-3"
             src="/laptop_2.svg"
-            alt="Juan Sanchez profile picture"
+            alt="Laptop for apps development"
             width={200}
             height={200}
             onClick={() => onOpenModal("apps")}

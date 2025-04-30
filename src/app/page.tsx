@@ -10,6 +10,13 @@ export default function Home() {
 
   return (
     <div className="page-container">
+      <div className="content-container">
+        <Projects onOpenModal={setModal} />
+        <Contact />
+      </div>
+
+      {/* <div className="minigame-container"><Minigame /></div> */}
+      <Footer />
       <Modal
         title={
           modal === "web"
@@ -23,12 +30,6 @@ export default function Home() {
         isOpen={modal !== null}
         onClose={() => setModal(null)}
       />
-      <div className="content-container">
-        <Projects onOpenModal={setModal} />
-        <Contact />
-      </div>
-      <div className="minigame-container">{/* <Minigame /> */}</div>
-      <Footer />
     </div>
   );
 }

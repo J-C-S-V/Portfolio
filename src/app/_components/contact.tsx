@@ -22,10 +22,9 @@ export default function Home() {
           </div>
         </section>
         <p className="text-description">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius nisi
-          dolorem dolores ullam omnis sed excepturi error, sint aperiam
-          accusamus, quia laborum maiores consectetur voluptate consequuntur
-          placeat sit. Non, corrupti!
+          +2 years of experience in web development, specializing in front-end
+          development. I have a strong passion for creating beautiful user
+          interfaces and enhancing user experiences.
         </p>
       </div>
     </article>
