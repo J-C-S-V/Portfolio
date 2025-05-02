@@ -14,8 +14,6 @@ export default function Home() {
         <Projects onOpenModal={setModal} />
         <Contact />
       </div>
-
-      {/* <div className="minigame-container"><Minigame /></div> */}
       <Footer />
       <Modal
         title={

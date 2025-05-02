@@ -42,3 +42,21 @@
   /* visibility: visible; */
   display: contents;
 }
+
+/* ARTICLES START */
+
+.articles-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.article-container {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  width: 30rem;
+  padding: 1rem;
+  background-color: #3a3a3a;
+}
+/* ARTICLES END */
