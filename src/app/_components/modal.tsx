@@ -12,8 +12,6 @@ type ModalProps = {
 };
 
 export function Modal({ title, isOpen, onClose, info }: ModalProps) {
-  if (!isOpen) return null;
-
   const infoCardTitle =
     info === "web"
       ? data.categories[0].projects[0].name
@@ -149,37 +147,39 @@ export function Modal({ title, isOpen, onClose, info }: ModalProps) {
       : "";
 
   return (
-    <div className={`${styles["modal-container"]} ${styles.active}`}>
-      <div className={styles.modal}>
-        <h2 className={styles.modal__title}>{title}</h2>
-        <button onClick={onClose} className={styles["modal__close-button"]}>
-          X
-        </button>
-        <div className={styles["modal__articles-container"]}>
-          <Card
-            cardName={infoCardTitle}
-            cardDescription={infoCardDescription}
-            technologiesList={technologiesList}
-            images={imageSrc}
-            linkUrl={linkUrl}
-          />
-          <Card
-            cardName={infoCardTitle2}
-            cardDescription={infoCardDescription2}
-            technologiesList={technologiesList2}
-            images={imageSrc2}
-            linkUrl={linkUrl2}
-          />
-          <Card
-            cardName={infoCardTitle3}
-            cardDescription={infoCardDescription3}
-            technologiesList={technologiesList3}
-            images={imageSrc3}
-            linkUrl={linkUrl3}
-          />
+    isOpen && (
+      <div className={`${styles["modal-container"]} ${styles.active}`}>
+        <div className={styles.modal}>
+          <h2 className={styles.modal__title}>{title}</h2>
+          <button onClick={onClose} className={styles["modal__close-button"]}>
+            X
+          </button>
+          <div className={styles["modal__articles-container"]}>
+            <Card
+              cardName={infoCardTitle}
+              cardDescription={infoCardDescription}
+              technologiesList={technologiesList}
+              images={imageSrc}
+              linkUrl={linkUrl}
+            />
+            <Card
+              cardName={infoCardTitle2}
+              cardDescription={infoCardDescription2}
+              technologiesList={technologiesList2}
+              images={imageSrc2}
+              linkUrl={linkUrl2}
+            />
+            <Card
+              cardName={infoCardTitle3}
+              cardDescription={infoCardDescription3}
+              technologiesList={technologiesList3}
+              images={imageSrc3}
+              linkUrl={linkUrl3}
+            />
+          </div>
         </div>
       </div>
-    </div>
+    )
   );
 }
 
