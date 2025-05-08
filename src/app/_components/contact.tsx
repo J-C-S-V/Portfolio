@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import "./contact.css";
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
           +2 years of experience in web development, specializing in front-end
           development. I have a strong passion for creating beautiful user
           interfaces and enhancing user experiences.
+          <Link href="/about">Read more</Link>
         </p>
       </div>
     </article>
