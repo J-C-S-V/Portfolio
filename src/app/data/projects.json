@@ -7,19 +7,21 @@
           "name": "Landing Page",
           "description": "A website landing page for a product launch.",
           "technologies": ["HTML", "CSS", "JavaScript"],
-          "link": "https://example.com/portfolio"
+          "image": "/images/o1zecr2u.png",
+          "link": "https://example.com"
         },
         {
           "name": "Video Streaming",
           "description": "A video streaming platform built with React and Node.js.",
           "technologies": ["React", "Node.js", "MongoDB"],
-          "link": "https://example.com/blog"
+          "image": "/images/test_website.png",
+          "link": "https://google.com"
         },
         {
           "name": "E-commerce",
           "description": "An online store built with React and Node.js.",
           "technologies": ["React", "Node.js", "MongoDB"],
-          "link": "https://example.com/ecommerce"
+          "link": "https://example.com"
         }
       ]
     },
@@ -30,19 +32,19 @@
           "name": "Newsletter Template",
           "description": "A responsive email template for a monthly newsletter.",
           "technologies": ["HTML", "CSS"],
-          "link": "https://example.com/weather-app"
+          "link": "https://example.com"
         },
         {
           "name": "Promotional Email",
           "description": "An email template for a promotional campaign.",
           "technologies": ["HTML", "CSS"],
-          "link": "https://example.com/promotional-email"
+          "link": "https://example.com"
         },
         {
           "name": "Event Invitation",
           "description": "An interactive email invitation for an event.",
           "technologies": ["MJML", "CSS"],
-          "link": "https://example.com/event-invitation"
+          "link": "https://example.com"
         }
       ]
     },
@@ -53,19 +55,19 @@
           "name": "Metronome",
           "description": "A personalized metronome app for musicians.",
           "technologies": ["React Native", "API"],
-          "link": "https://example.com/weather-app"
+          "link": "https://example.com"
         },
         {
           "name": "Button Builder",
           "description": "A customizable button builder app.",
           "technologies": ["Flutter", "Firebase"],
-          "link": "https://example.com/task-manager"
+          "link": "https://example.com"
         },
         {
           "name": "Translation App",
           "description": "A translation app that uses Google Translate API.",
           "technologies": ["Swift", "CoreData"],
-          "link": "https://example.com/translation-app"
+          "link": "https://example.com"
         }
       ]
     }

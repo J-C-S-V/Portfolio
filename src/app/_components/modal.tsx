@@ -95,6 +95,59 @@ export function Modal({ title, isOpen, onClose, info }: ModalProps) {
       ? data.categories[2].projects[2].technologies
       : [];
 
+  const imageSrc =
+    info === "web"
+      ? data.categories[0].projects[0].image
+      : info === "email"
+      ? data.categories[1].projects[0].image
+      : info === "apps"
+      ? data.categories[2].projects[0].image
+      : "";
+
+  const imageSrc2 =
+    info === "web"
+      ? data.categories[0].projects[1].image
+      : info === "email"
+      ? data.categories[1].projects[1].image
+      : info === "apps"
+      ? data.categories[2].projects[1].image
+      : "";
+  const imageSrc3 =
+    info === "web"
+      ? data.categories[0].projects[2].image
+      : info === "email"
+      ? data.categories[1].projects[2].image
+      : info === "apps"
+      ? data.categories[2].projects[2].image
+      : "";
+
+  const linkUrl =
+    info === "web"
+      ? data.categories[0].projects[0].link
+      : info === "email"
+      ? data.categories[1].projects[0].link
+      : info === "apps"
+      ? data.categories[2].projects[0].link
+      : "";
+
+  const linkUrl2 =
+    info === "web"
+      ? data.categories[0].projects[1].link
+      : info === "email"
+      ? data.categories[1].projects[1].link
+      : info === "apps"
+      ? data.categories[2].projects[1].link
+      : "";
+
+  const linkUrl3 =
+    info === "web"
+      ? data.categories[0].projects[2].link
+      : info === "email"
+      ? data.categories[1].projects[2].link
+      : info === "apps"
+      ? data.categories[2].projects[2].link
+      : "";
+
   return (
     <div className={`${styles["modal-container"]} ${styles.active}`}>
       <div className={styles.modal}>
@@ -107,16 +160,22 @@ export function Modal({ title, isOpen, onClose, info }: ModalProps) {
             cardName={infoCardTitle}
             cardDescription={infoCardDescription}
             technologiesList={technologiesList}
+            images={imageSrc}
+            linkUrl={linkUrl}
           />
           <Card
             cardName={infoCardTitle2}
             cardDescription={infoCardDescription2}
             technologiesList={technologiesList2}
+            images={imageSrc2}
+            linkUrl={linkUrl2}
           />
           <Card
             cardName={infoCardTitle3}
             cardDescription={infoCardDescription3}
             technologiesList={technologiesList3}
+            images={imageSrc3}
+            linkUrl={linkUrl3}
           />
         </div>
       </div>
@@ -128,10 +187,14 @@ function Card({
   cardName,
   cardDescription,
   technologiesList = [],
+  images,
+  linkUrl,
 }: {
   cardName: string;
   cardDescription: string;
   technologiesList?: string[];
+  images?: string;
+  linkUrl?: string;
 }) {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -148,13 +211,13 @@ function Card({
       >
         <a
           className={styles.article__link}
-          href="https://example.com"
+          href={linkUrl}
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
             className={styles.article__image}
-            src="test_website.png"
+            src={images}
             alt="test website"
           />
         </a>
