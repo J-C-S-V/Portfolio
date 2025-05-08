@@ -96,7 +96,7 @@ export function Modal({ title, isOpen, onClose, info }: ModalProps) {
       : [];
 
   return (
-    <div className={`${styles["modalContainer"]} active`}>
+    <div className={`${styles["modal-container"]} ${styles.active}`}>
       <div className={styles.modal}>
         <h2 className={styles.modal__title}>{title}</h2>
         <button onClick={onClose} className={styles["modal__close-button"]}>
@@ -158,7 +158,11 @@ function Card({
             alt="test website"
           />
         </a>
-        <span className={`article__icon-container ${isHovered ? "show" : ""}`}>
+        <span
+          className={`${styles["article__icon-container"]} ${
+            isHovered ? styles.show : ""
+          }`}
+        >
           Open <IconOpenNewTab />
         </span>
       </div>

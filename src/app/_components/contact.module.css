@@ -1,4 +1,4 @@
-.card-container {
+.card {
   display: flex;
   align-items: center;
   width: 50rem;
@@ -9,24 +9,25 @@
   padding: 0 1rem 0 0;
 }
 
-.text-picture-container {
+.card__text-picture-container {
   display: flex;
   flex-direction: row;
   gap: 2rem;
 }
 
-.text-container {
+.card__text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  color: var(--text-white);
 }
 
 .card__img {
   border-radius: 50%;
 }
 
-.line {
+.card__line {
   width: 20px;
   background-color: var(--blue-four);
   height: 90%;
@@ -34,42 +35,37 @@
   margin: 0 1rem;
 }
 
-.card-name,
-.card-title {
-  color: var(--text-white);
-}
-
 /* animation */
-.card-name,
-.card-title,
+.card__name,
+.card__title,
 .card__img,
-.text-description,
-.line {
+.card__description,
+.card__line {
   transition-duration: 300ms;
   transition-timing-function: ease;
   transition-property: transform;
 }
 
-.card-container:hover .card-name {
+.card:hover .card__name {
   transform: translateX(0.2rem);
 }
 
-.card-container:hover .card-title {
+.card:hover .card__title {
   transform: translateX(0.2rem);
   transition-delay: 0.05s;
 }
 
-.card-container:hover .card__img {
+.card:hover .card__img {
   transform: translateX(0.2rem);
   transition-delay: 0.15s;
 }
 
-.card-container:hover .text-description {
+.card:hover .card__description {
   transform: translateX(0.2rem);
   transition-delay: 0.1s;
 }
 
-.card-container:hover .line {
+.card:hover .card__line {
   transform: translateX(0.2rem);
   transition-delay: 0.15s;
 }

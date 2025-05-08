@@ -1,11 +1,9 @@
-import "./icons.css";
-
 export const IconOpenNewTab = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="64px"
-      height="64px"
+      width="44px"
+      height="44px"
       viewBox="0 0 512 512"
       fill="#000000"
       stroke="#000000"

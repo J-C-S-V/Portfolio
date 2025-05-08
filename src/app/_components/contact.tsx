@@ -1,20 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
-import "./contact.css";
+import styles from "./contact.module.css";
 
 export default function Home() {
   return (
-    <article className="card-container">
-      <div className="line"></div>
+    <article className={styles.card}>
+      <div className={styles.card__line}></div>
       <div>
-        <section className="text-picture-container">
-          <header className="text-container">
-            <h2 className="card-name">Juan Sanchez</h2>
-            <h3 className="card-title">Front-end developer</h3>
+        <section className={styles["card__text-picture-container"]}>
+          <header className={styles["card__text-container"]}>
+            <h2 className={styles["card__name"]}>Juan Sanchez</h2>
+            <h3 className={styles["card__title"]}>Front-end developer</h3>
           </header>
           <div>
             <Image
-              className="card__img"
+              className={styles.card__img}
               src="/img_profile.jpg"
               alt="Juan Sanchez profile picture"
               width={120}
@@ -22,7 +22,7 @@ export default function Home() {
             />
           </div>
         </section>
-        <p className="text-description">
+        <p className={styles["card__description"]}>
           +2 years of experience in web development, specializing in front-end
           development. I have a strong passion for creating beautiful user
           interfaces and enhancing user experiences.

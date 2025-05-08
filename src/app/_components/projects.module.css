@@ -9,6 +9,7 @@
   font-weight: 300;
   color: var(--text-white);
   padding: 0 0 24px 0;
+  text-align: center;
 }
 
 .laptops-container {
