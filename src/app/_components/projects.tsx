@@ -21,24 +21,24 @@ export default function Projects({ onOpenModal }: ProjectsProps) {
             onClick={() => onOpenModal("web")}
           />
         </div>
-        <div className="image-container-2" data-tooltip="Email Development">
+        <div className="image-container-2" data-tooltip="Apps Development">
           <Image
             className="laptops laptop-2"
-            src="/svg/laptop_2.svg"
-            alt="Laptop for email development"
-            width={200}
-            height={200}
-            onClick={() => onOpenModal("email")}
-          />
-        </div>
-        <div className="image-container-3" data-tooltip="Apps Development">
-          <Image
-            className="laptops laptop-3"
             src="/svg/laptop_2.svg"
             alt="Laptop for apps development"
             width={200}
             height={200}
             onClick={() => onOpenModal("apps")}
+          />
+        </div>
+        <div className="image-container-3" data-tooltip="Email Development">
+          <Image
+            className="laptops laptop-3"
+            src="/svg/laptop_2.svg"
+            alt="Laptop for email development"
+            width={200}
+            height={200}
+            onClick={() => onOpenModal("email")}
           />
         </div>
       </aside>

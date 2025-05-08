@@ -5,21 +5,21 @@
       "projects": [
         {
           "name": "Landing Page",
-          "description": "A personal portfolio website to showcase my projects and skills.",
+          "description": "A website landing page for a product launch.",
           "technologies": ["HTML", "CSS", "JavaScript"],
           "link": "https://example.com/portfolio"
         },
         {
-          "name": "E-commerce Site",
+          "name": "Video Streaming",
+          "description": "A video streaming platform built with React and Node.js.",
+          "technologies": ["React", "Node.js", "MongoDB"],
+          "link": "https://example.com/blog"
+        },
+        {
+          "name": "E-commerce",
           "description": "An online store built with React and Node.js.",
           "technologies": ["React", "Node.js", "MongoDB"],
           "link": "https://example.com/ecommerce"
-        },
-        {
-          "name": "Blog Platform",
-          "description": "A blogging platform where users can create and share posts.",
-          "technologies": ["Django", "PostgreSQL"],
-          "link": "https://example.com/blog"
         }
       ]
     },
@@ -29,7 +29,7 @@
         {
           "name": "Newsletter Template",
           "description": "A responsive email template for a monthly newsletter.",
-          "technologies": ["React Native", "API"],
+          "technologies": ["HTML", "CSS"],
           "link": "https://example.com/weather-app"
         },
         {
@@ -51,21 +51,21 @@
       "projects": [
         {
           "name": "Metronome",
-          "description": "A mobile app that provides weather updates using a public API.",
+          "description": "A personalized metronome app for musicians.",
           "technologies": ["React Native", "API"],
           "link": "https://example.com/weather-app"
         },
         {
           "name": "Button Builder",
-          "description": "A task management app built with Flutter.",
+          "description": "A customizable button builder app.",
           "technologies": ["Flutter", "Firebase"],
           "link": "https://example.com/task-manager"
         },
         {
-          "name": "Fitness Tracker",
-          "description": "An app to track fitness activities and progress.",
+          "name": "Translation App",
+          "description": "A translation app that uses Google Translate API.",
           "technologies": ["Swift", "CoreData"],
-          "link": "https://example.com/fitness-tracker"
+          "link": "https://example.com/translation-app"
         }
       ]
     }
