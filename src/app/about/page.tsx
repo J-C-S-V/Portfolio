@@ -1,8 +1,17 @@
+"use client";
+
+import { motion } from "motion/react";
+
 export default function About() {
   return (
     <div>
-      <h1>About Us</h1>
-      <p>This is the about page of our application.</p>
+      <motion.h1
+        initial={{ opacity: 0 }}
+        transition={{ duration: 0.5 }}
+        animate={{ opacity: 1 }}
+      >
+        hi
+      </motion.h1>
     </div>
   );
 }

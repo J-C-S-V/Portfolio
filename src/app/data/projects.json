@@ -53,20 +53,23 @@
       "projects": [
         {
           "name": "Metronome",
-          "description": "A personalized metronome app for musicians.",
-          "technologies": ["React Native", "API"],
+          "description": "A personalized metronome app for musicians. It allows users to set custom beats and tempos.",
+          "technologies": ["JavaScript", "CSS", "HTML"],
+          "image": "/images/o1zecr2u.png",
           "link": "https://example.com"
         },
         {
           "name": "Button Builder",
-          "description": "A customizable button builder app.",
-          "technologies": ["Flutter", "Firebase"],
+          "description": "A customizable button builder app. It allows users to create buttons with different styles.",
+          "technologies": ["JavaScript", "CSS", "HTML"],
+          "image": "/images/o1zecr2u.png",
           "link": "https://example.com"
         },
         {
           "name": "Translation App",
-          "description": "A translation app that uses Google Translate API.",
-          "technologies": ["Swift", "CoreData"],
+          "description": "A translation app that uses Google Translate API. It allows users to translate different languages.",
+          "technologies": ["JavaScript", "CSS", "HTML"],
+          "image": "/images/o1zecr2u.png",
           "link": "https://example.com"
         }
       ]

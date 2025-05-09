@@ -3,6 +3,7 @@ import { useState } from "react";
 import data from "../data/projects.json";
 import styles from "./modal.module.css";
 import { IconOpenNewTab } from "../../../public/svg/icons";
+import { motion } from "motion/react";
 
 type ModalProps = {
   title: string;
@@ -148,7 +149,12 @@ export function Modal({ title, isOpen, onClose, info }: ModalProps) {
 
   return (
     isOpen && (
-      <div className={`${styles["modal-container"]} ${styles.active}`}>
+      <motion.div
+        initial={{ opacity: 0 }}
+        transition={{ duration: 1.5 }}
+        animate={{ opacity: 1 }}
+        className={`${styles["modal-container"]} ${styles.active}`}
+      >
         <div className={styles.modal}>
           <h2 className={styles.modal__title}>{title}</h2>
           <button onClick={onClose} className={styles["modal__close-button"]}>
@@ -178,7 +184,7 @@ export function Modal({ title, isOpen, onClose, info }: ModalProps) {
             />
           </div>
         </div>
-      </div>
+      </motion.div>
     )
   );
 }
