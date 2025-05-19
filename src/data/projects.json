@@ -2,28 +2,35 @@
   {
     "title": "Metronome App",
     "description": "A metronome app that allows users to create custom metronomes with different styles and colors.",
-    "tags": ["JavaScript", "CSS", "HTML", "Reaper"]
+    "tags": ["JavaScript", "CSS", "HTML", "Reaper"],
+    "image": "o1zecr2u.png",
+    "link": "https://github.com/juan-sanchez/metronome-app",
+    "github": "https://github.com/juan-sanchez/metronome-app"
   },
   {
     "title": "Button Builder",
     "description": "A button builder app that allows users to create custom buttons with different styles and colors.",
-    "tags": ["React", "TypeScript", "CSS", "HTML"]
+    "tags": ["React", "TypeScript", "CSS", "HTML"],
+    "image": "o1zecr2u.png",
+    "link": "https://github.com/juan-sanchez/button-builder",
+    "github": "https://github.com/juan-sanchez/button-builder"
 
 
-  },
-  {
-    "title": "Project 4",
-    "description": "A brief description of project 4",
-    "tags": ["React Native", "Firebase"]
   },
   {
     "title": "Fast Translation App",
     "description": "A fast translation app that allows users to translate text from one language to another.",
-    "tags": ["React", "TypeScript", "CSS", "HTML", "Open AI API"]
+    "tags": ["React", "TypeScript", "CSS", "HTML", "Open AI API"],
+    "image": "o1zecr2u.png",
+    "link": "https://github.com/juan-sanchez/fast-translation-app",
+    "github": "https://github.com/juan-sanchez/fast-translation-app"
   },
   {
     "title": "Juan Sanchez",
     "description": "Juan Sanchez is a web developer with a passion for creating innovative and user-friendly applications.",
-    "tags": ["Next.js", "TypeScript", "CSS"]
+    "tags": ["Next.js", "TypeScript", "CSS"],
+    "image": "o1zecr2u.png",
+    "link": "https://github.com/juan-sanchez",
+    "github": "https://github.com/juan-sanchez"
   }
 ]

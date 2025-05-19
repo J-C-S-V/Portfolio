@@ -1,5 +1,8 @@
+@import url('https://rsms.me/inter/inter.css');
+
 /* Base styles */
 :root {
+  --black-two: #292929;
   --color-primary: #3b82f6;
   --color-white-text: #e1e1e1;
   --color-primary-dark: #2563eb;
@@ -14,70 +17,43 @@
   --color-tag-text: #1e40af;
   --color-tag-bg-dark: #1e3a8a;
   --color-tag-text-dark: #bfdbfe;
-  --font-system-ui: system-ui, sans-serif;
+  --font-inter: 'Inter', 'system-ui', sans-serif;
   --transition: 0.3s ease-in-out;
 }
 
 .app-container {
   height: 100dvh;
   background: var(--color-bg-gradient);
+  padding: 3.2rem;
 }
 
 .app-header {
   text-align: center;
   color: var(--color-white-text);
+  margin-bottom: 4rem;
 }
 
 .app-title {
   font-size: 3.6rem;
-  font-weight: 700;
-  font-family: var(--font-system-ui);
+  font-weight: 400;
+  font-family: var(--font-inter);
+  letter-spacing: 1rem;
+  background: linear-gradient(90deg, #3609ff 50%, #000000 60%);
+  animation: gradient 3s linear infinite;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.228);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 100%;
+  }
 }
 
 .app-main {
-  /* max-width: 144rem;
-  margin: 0 auto; */
-}
-
-.bento-item-content {
-  padding: 2.4rem;
-}
-
-.project-title {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: var(--color-white-text);
-}
-
-.project-description {
-  color: var(--color-white-text);
-  margin-bottom: 1.6rem;
-  line-height: 1.6;
-}
-
-.project-tags {
-  margin-top: auto;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-}
-
-.project-tag {
-  font-size: 1.2rem;
-  padding: 0.4rem 1.2rem;
-  border-radius: 12px;
-  background-color: var(--color-tag-bg);
-  color: var(--color-tag-text);
-  font-weight: 500;
-  cursor: default;
-}
-
-@media (min-width: 768px) {
-  .app-container {
-    padding: 3.2rem;
-  }
-
-  .app-title {
-    font-size: 4.8rem;
-  }
+  display: grid;
+  grid-template-columns: 80% 20%;
 }
