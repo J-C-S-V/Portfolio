@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Metronome App",
+    "description": "A metronome app that allows users to create custom metronomes with different styles and colors.",
+    "tags": ["JavaScript", "CSS", "HTML", "Reaper"]
+  },
+  {
+    "title": "Button Builder",
+    "description": "A button builder app that allows users to create custom buttons with different styles and colors.",
+    "tags": ["React", "TypeScript", "CSS", "HTML"]
+
+
+  },
+  {
+    "title": "Project 4",
+    "description": "A brief description of project 4",
+    "tags": ["React Native", "Firebase"]
+  },
+  {
+    "title": "Fast Translation App",
+    "description": "A fast translation app that allows users to translate text from one language to another.",
+    "tags": ["React", "TypeScript", "CSS", "HTML", "Open AI API"]
+  },
+  {
+    "title": "Juan Sanchez",
+    "description": "Juan Sanchez is a web developer with a passion for creating innovative and user-friendly applications.",
+    "tags": ["Next.js", "TypeScript", "CSS"]
+  }
+]
