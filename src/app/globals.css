@@ -5,14 +5,14 @@
 /* START CSS RESET */
 
 :root {
-  --blue-one: #4c39ff;
-  --blue-two: #090979;
+  --blue-one: #32a6ff;
+  --blue-two: #4c39ff;
+  --blue-three: #090979;
   --black-one: #000000;
   --black-two: #292929;
-  --blue-four: #32a6ff;
-  --grey-one: #e1e1e1;
-  --background: radial-gradient(circle, #4c39ff 0%, #090979 54%, #000000 100%);
-  --text-white: #ededed;
+  --white-one: #e1e1e1;
+  --background-gradient: radial-gradient(circle, #4c39ff 0%, #090979 54%, #000000 100%);
+  --text-white: #e1e1e1;
   --font-inter: "Inter", sans-serif;
 }
 
@@ -37,7 +37,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: radial-gradient(
+    --background-gradient: radial-gradient(
       circle,
       #4c39ff 0%,
       #090979 54%,
@@ -48,41 +48,20 @@ body {
 }
 
 body {
-  background: var(--background);
+  background: var(--background-gradient);
   color: var(--text-white);
-  height: 100vh;
+  height: 100dvh;
 }
 
 /* END CSS RESET */
 
-.page-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-  height: 100vh;
-  border: 2px dashed black;
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.content-container {
-  width: 80%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-end;
-  gap: 2rem;
-  padding: 6rem 0 0 0;
-}
-
-.h1 {
-  text-align: center;
-}
-
-.h2 {
-  text-align: center;
-}
-
-.p {
-  text-align: center;
-  width: 40%;
+.box {
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid var(--black-two);
 }
