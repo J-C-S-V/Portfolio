@@ -69,6 +69,7 @@
   background-color: var(--color-tag-bg);
   color: var(--color-tag-text);
   font-weight: 500;
+  cursor: default;
 }
 
 @media (min-width: 768px) {

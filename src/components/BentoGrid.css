@@ -1,13 +1,7 @@
 .bento-grid {
-  --gap: 1.6rem;
-  --min-width: 25rem;
-
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(var(--min-width), 1fr));
-  gap: var(--gap);
-  width: 100%;
-  max-width: 144rem;
-  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.6rem;
   padding: 1.6rem;
 }
 
@@ -22,15 +16,14 @@
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: box-shadow 0.2s ease-in-out;
   overflow: hidden;
   display: flex;
   flex-direction: column;
 }
 
 .bento-item:hover {
-  transform: translateY(-0.4rem);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
 }
 
 /* Responsive adjustments */
