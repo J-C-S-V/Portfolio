@@ -67,7 +67,7 @@
         },
         {
           "name": "Translation App",
-          "description": "A translation app that uses Google Translate API. It allows users to translate different languages.",
+          "description": "A translation app that uses ChatGPT API. It allows users to translate different languages.",
           "technologies": ["JavaScript", "CSS", "HTML"],
           "image": "/images/o1zecr2u.png",
           "link": "https://example.com"

@@ -1,10 +1,9 @@
 "use client";
 import { useState } from "react";
-import data from "../data/projects.json";
 import styles from "./modal.module.css";
 import { IconOpenNewTab } from "../../../public/svg/icons";
 import { motion } from "motion/react";
-
+import data from "../_data/projects.json";
 type ModalProps = {
   title: string;
   isOpen: boolean;
