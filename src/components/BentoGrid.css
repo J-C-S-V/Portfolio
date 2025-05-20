@@ -1,11 +1,11 @@
 .bento-grid {
   display: grid;
-  width: 94%;
+  width: 100%;
   margin: 0 auto;
   justify-content: center;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .bento-item {
@@ -86,11 +86,12 @@
   height: 20rem;
   object-fit: cover;
   border-radius: 1.2rem 1.2rem 0 0;
+  object-position: top;
 }
 
 .project-title {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
   color: var(--color-white-text);
   padding: 0 1rem;
 }

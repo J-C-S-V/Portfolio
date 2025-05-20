@@ -19,8 +19,8 @@ export const DescriptionProfile = () => {
   return (
     <article className={styles.card}>
       <div className={styles.card__line}></div>
-      <div>
-        <section className={styles["card__text-picture-container"]}>
+      <div className={styles["card__text-picture-container"]} >
+        <section >
           <header className={styles["card__text-container"]}>
             <h2 className={styles["card__name"]}>Juan Sanchez</h2>
             <h3 className={styles["card__title"]}>Front-end developer</h3>
@@ -30,6 +30,10 @@ export const DescriptionProfile = () => {
           +2 years of experience in web development, specializing in front-end
           development. I have a strong passion for creating beautiful user
           interfaces and enhancing user experiences.
+        </p>
+        <p className={styles["card__description"]}>
+          I have experience with modern technologies
+          such as React, TypeScript, Next.js, Tailwind CSS, Vite and more.
           <a href="/about">Read more</a>
         </p>
       </div>
