@@ -22,9 +22,7 @@
 }
 
 .app-container {
-  height: 100dvh;
-  background: var(--color-bg-gradient);
-  padding: 3.2rem;
+  padding: 3rem;
 }
 
 .app-header {

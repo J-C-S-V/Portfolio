@@ -13,6 +13,7 @@
 
 body {
   font-size: 1.6rem;
+  background: var(--color-bg-gradient);
 }
 
 @media (prefers-color-scheme: light) {
