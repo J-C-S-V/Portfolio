@@ -24,11 +24,11 @@
     "github": "https://github.com/J-C-S-V/translation-app"
   },
   {
-    "title": "Juan Sanchez",
-    "description": "Juan Sanchez is a web developer with a passion for creating innovative and user-friendly applications.",
-    "tags": ["Next.js", "TypeScript", "CSS"],
-    "image": "juan_sanchez_hero.png",
-    "link": "https://github.com/juan-sanchez",
-    "github": "https://github.com/juan-sanchez"
+    "title": "Anime Series Website",
+    "description": "A website that allows users to search for anime series and watch them online.",
+    "tags": ["React", "Redux", "JavaScript", "CSS", "HTML"],
+    "image": "anime_series_website_hero.png",
+    "link": "https://monumental-genie-e44af9.netlify.app",
+    "github": "https://github.com/J-C-S-V/capstone-project-react"
   }
 ]

@@ -17,12 +17,14 @@
   --color-tag-text: #1e40af;
   --color-tag-bg-dark: #1e3a8a;
   --color-tag-text-dark: #bfdbfe;
+  --color-success: #16a34a;
   --font-inter: 'Inter', 'system-ui', sans-serif;
   --transition: 0.3s ease-in-out;
 }
 
 .app-container {
-  padding: 3rem;
+  height: 100dvh;
+  padding: 3.1rem 15rem;
 }
 
 .app-header {
@@ -55,4 +57,11 @@
   display: grid;
   grid-template-columns: 4fr 1fr;
   gap: 3rem;
+}
+
+@media screen and (max-width: 1540px) {
+  .app-container {
+    padding: 3.1rem 12rem;
+    height: 100%;
+  }
 }
