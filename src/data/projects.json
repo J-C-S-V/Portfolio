@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Metronome App",
+    "description": "A metronome app that allows users to create custom metronomes with different styles and colors.",
+    "tags": ["JavaScript", "CSS", "HTML", "Reaper"],
+    "image": "metronome_hero.png",
+    "link": "https://metronome-application.netlify.app",
+    "github": "https://github.com/J-C-S-V/metronome"
+  },
+  {
+    "title": "Button Builder",
+    "description": "A button builder app that allows users to create custom buttons with different styles and colors. Users can customize various button properties including font size, border radius, padding, font color and background color. The app provides real-time previews and generates clean, production-ready CSS and HTML that can be easily copied and implemented in any project. Built with React and TypeScript for type safety and maintainability, it showcases modern web development practices and responsive design principles.",
+    "tags": ["React", "TypeScript", "CSS", "HTML"],
+    "image": "free_button_builder_hero.png",
+    "link": "https://button-builder-app.netlify.app",
+    "github": "https://github.com/J-C-S-V/button-builder"
+  },
+  {
+    "title": "Fast Translation App",
+    "description": "A fast translation app that allows users to translate text from one language to another. This app uses the Open AI API with GPT-4.1 nano to translate text.",
+    "tags": ["React", "TypeScript", "CSS", "HTML", "Open AI API"],
+    "image": "fast_translation_app_hero.png",
+    "link": "https://translation-ai-app.netlify.app",
+    "github": "https://github.com/J-C-S-V/translation-app"
+  },
+  {
+    "title": "Anime Series Website",
+    "description": "A website that allows users to search for anime series and watch them online.",
+    "tags": ["React", "Redux", "JavaScript", "CSS", "HTML"],
+    "image": "anime_series_website_hero.png",
+    "link": "https://monumental-genie-e44af9.netlify.app",
+    "github": "https://github.com/J-C-S-V/capstone-project-react"
+  }
+]
