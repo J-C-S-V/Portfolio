@@ -25,6 +25,17 @@
 .app-container {
   height: 100dvh;
   padding: 3.1rem 15rem;
+  animation: fadeIn 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .app-header {
