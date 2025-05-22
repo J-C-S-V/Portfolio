@@ -77,15 +77,7 @@
   animation: 1s ease-in-out zoom infinite;
 }
 
-@media screen and (max-width: 1540px) {
-  .card__description {
-    font-size: 1.4rem;
-  }
-  .card__text-container {
-    font-size: 1.4rem;
-  }
-}
-
+/* Animations */
 @keyframes zoom {
   0% {
     transform: scale(0);
