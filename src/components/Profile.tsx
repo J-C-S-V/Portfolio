@@ -13,7 +13,7 @@ export const ImageProfile = () => {
       />
       <div className={styles["card__work-tag"]}>
         <div className={styles["card__circle"]}></div>
-        <span>¡Open to work! 🚀</span>
+        <span>Open to work!</span>
       </div>
     </div>
   );

@@ -38,10 +38,11 @@
   font-weight: 400;
   font-family: var(--font-inter);
   letter-spacing: 1rem;
-  background: linear-gradient(90deg, #3609ff 50%, #000000 60%);
   animation: gradient 3s linear infinite;
   backdrop-filter: blur(10px);
   box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.228);
+  text-shadow: -4px 4px 2px var(--color-primary);
+  padding: 1rem 0;
 }
 
 @keyframes gradient {
