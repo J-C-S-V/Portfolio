@@ -52,7 +52,7 @@
 }
 
 .project-description {
-  color: var(--color-white-text);
+  color: var(--color-text-white);
   margin-bottom: 1.6rem;
   line-height: 1.6;
   padding: 0 1rem;
@@ -82,7 +82,7 @@
 }
 
 .project-tag-link:hover {
-  background-color: var(--color-white-text);
+  background-color: var(--color-text-white);
   color: var(--color-black-two);
 }
 
@@ -97,7 +97,7 @@
 .project-title {
   font-size: 2rem;
   margin: 1rem 0;
-  color: var(--color-white-text);
+  color: var(--color-text-white);
   padding: 0 1rem;
 }
 

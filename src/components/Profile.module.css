@@ -5,7 +5,7 @@
   height: 70%;
   background: linear-gradient(45deg, #000, transparent);
   border-radius: 1rem;
-  color: var(--color-white-text);
+  color: var(--color-text-white);
   padding: 3rem 1rem;
   box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 23%);
   animation: slideBottomToTop 0.8s ease-in-out;

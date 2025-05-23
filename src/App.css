@@ -2,17 +2,17 @@
 
 /* Base styles */
 :root {
-  --black-two: #292929;
+  --color-text-black: #292929;
+  --color-card-dark: #1f2937;
+  --color-bg-dark: #111827;
   --color-primary: #3b82f6;
-  --color-white-text: #e1e1e1;
-  --color-primary-dark: #2563eb;
   --color-secondary: #8b5cf6;
+  --color-text-white: #e1e1e1;
+  --color-primary-dark: #2563eb;
   --color-text: #1f2937;
   --color-text-light: #6b7280;
   --color-bg-gradient: radial-gradient(circle, #4c39ff 0%, #090979 54%, #000000 100%);
-  --color-bg-dark: #111827;
   --color-card: #ffffff;
-  --color-card-dark: #1f2937;
   --color-tag-bg: #dbeafe;
   --color-tag-text: #1e40af;
   --color-tag-bg-dark: #1e3a8a;
@@ -31,7 +31,7 @@
 
 .app-header {
   text-align: center;
-  color: var(--color-white-text);
+  color: var(--color-text-white);
   margin-bottom: 4rem;
 }
 
