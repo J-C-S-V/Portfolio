@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Metronome App",
+    "description": "A metronome app that allows users to create custom metronomes with different styles and colors.",
+    "tags": ["JavaScript", "CSS", "HTML", "Reaper"],
+    "image": "metronome_hero.png",
+    "link": "https://metronome-application.netlify.app",
+    "github": "https://github.com/J-C-S-V/metronome"
+  },
+  {
+    "title": "Button Builder",
+    "description": "A button builder app that allows users to create custom buttons with different styles and colors. Users can customize various button properties including font size, border radius, padding, font color and background color. The app provides real-time previews and generates clean, production-ready CSS and HTML that can be easily copied and implemented in any project. Built with React and TypeScript for type safety and maintainability.",
+    "tags": ["React", "TypeScript", "CSS", "HTML"],
+    "image": "free_button_builder_hero.png",
+    "link": "https://button-builder-app.netlify.app",
+    "github": "https://github.com/J-C-S-V/button-builder"
+  },
+  {
+    "title": "Fast Translation App",
+    "description": "A fast translation app that allows users to translate text from one language to another. This app uses the Open AI API with GPT-4.1 nano to translate text.",
+    "tags": ["React", "TypeScript", "CSS", "HTML", "Open AI API"],
+    "image": "fast_translation_app_hero.png",
+    "link": "https://translation-ai-app.netlify.app",
+    "github": "https://github.com/J-C-S-V/translation-app"
+  },
+  {
+    "title": "Anime Series Website",
+    "description": "A website that allows users to search for anime series and watch them online.",
+    "tags": ["React", "Redux", "JavaScript", "CSS", "HTML"],
+    "image": "anime_series_website_hero.png",
+    "link": "https://monumental-genie-e44af9.netlify.app",
+    "github": "https://github.com/J-C-S-V/capstone-project-react"
+  },
+  {
+    "title": "Space Travelers Hub",
+    "description": "A space travelers hub that allows users to reserve a seat on a space mission.",
+    "tags": ["React", "Redux", "JavaScript", "CSS", "HTML", "RestAPI"],
+    "image": "space_travelers_hub_hero.png",
+    "link": "https://space-travelers-hub-project.netlify.app",
+    "github": "https://github.com/J-C-S-V/spacex-project"
+  },
+
+  {
+    "title": "Restaurant Website",
+    "description": "A restaurant website that allows users to view the menu and like dishes.",
+    "tags": ["JavaScript", "SCSS", "HTML", "RestAPI"],
+    "image": "restaurant_website_hero.png",
+    "link": "https://friendly-strudel-5e52a8.netlify.app/",
+    "github": "https://github.com/J-C-S-V/capstone-project-module-2"
+  },
+  {
+    "title": "Todo List App",
+    "description": "A todo list app that allows users to add, delete, and mark tasks as completed.",
+    "tags": ["JavaScript", "CSS", "HTML"],
+    "image": "todo_list_app_hero.png",
+    "link": "https://ornate-froyo-632924.netlify.app",
+    "github": "https://github.com/J-C-S-V/todo-list-app"
+  },
+
+  {
+    "title": "Math Magicians App",
+    "description": "A calculator app that allows users to perform several calculations.",
+    "tags": ["JavaScript", "CSS", "HTML", "RestAPI"],
+    "image": "math_magicians_hero.png",
+    "link": "https://math-magicians-site.netlify.app",
+    "github": "https://github.com/J-C-S-V/math-magicians"
+  },
+  {
+    "title": "Marketing Agency Landing Page",
+    "description": "A marketing agency landing page built with Bootstrap.",
+    "tags": ["JavaScript", "CSS", "HTML", "Bootstrap"],
+    "image": "marketing_agency_landing_page_hero.png",
+    "link": "https://marketing-agency-site.netlify.app",
+    "github": "https://github.com/J-C-S-V/bootstrap_project"
+  },
+  {
+    "title": "Snake Game",
+    "description": "A snake game built with JavaScript.",
+    "tags": ["JavaScript", "CSS", "HTML"],
+    "image": "snake_game_hero.png",
+    "link": "https://hilarious-medovik-3cda2f.netlify.app",
+    "github": "https://github.com/J-C-S-V/snake_game"
+  },
+  {
+    "title": "Typing Speed Test",
+    "description": "A typing speed test built with JavaScript.",
+    "tags": ["JavaScript", "CSS", "HTML"],
+    "image": "typing_speed_test_hero.png",
+    "link": "https://creative-entremet-225e0d.netlify.app",
+    "github": "https://github.com/J-C-S-V/typing_speed_test"
+  },
+  {
+    "title": "Email Template Black Friday",
+    "description": "An email template built with HTML and CSS.",
+    "tags": ["HTML", "CSS"],
+    "image": "email_template_black_friday_hero.png",
+    "link": "https://blackfridaytemplate.netlify.app",
+    "github": "#"
+  },
+  {
+    "title": "Email Template MailChimp",
+    "description": "An email template built with HTML and CSS.",
+    "tags": ["HTML", "CSS"],
+    "image": "email_template_mailchimp_hero.png",
+    "link": "https://responsivemailshimptemplate.netlify.app",
+    "github": "#"
+  }
+
+]
