@@ -3,6 +3,7 @@
 /* Base styles */
 :root {
   --color-text-black: #292929;
+  --color-black-two: #1f2937;
   --color-card-dark: #1f2937;
   --color-bg-dark: #111827;
   --color-primary: #3b82f6;
@@ -24,7 +25,7 @@
 
 .app {
   height: 100dvh;
-  padding: 3.1rem 15rem;
+  padding: 4rem 15rem;
   animation: fadeIn 0.3s ease-in-out;
   overflow: hidden;
 }
@@ -36,6 +37,7 @@
   text-align: center;
   color: var(--color-text-white);
   margin-bottom: 4rem;
+  box-shadow: 0px 14px 7px -4px rgba(255, 255, 255, 0.228);
 }
 
 .app__title {
@@ -45,8 +47,7 @@
   font-family: var(--font-inter);
   letter-spacing: 1rem;
   backdrop-filter: blur(10px);
-  /* box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.228); */
-  box-shadow: 0px 14px 7px -4px rgba(255, 255, 255, 0.228);
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.228);
   text-shadow: -4px 4px 2px var(--color-primary);
   padding: 1rem 4rem;
 }
@@ -106,7 +107,7 @@
 /* Responsive */
 @media (max-width: 1366px) {
   .app {
-    padding: 3rem 6rem;
+    padding: 5rem 6rem;
     height: 100%;
   }
 
@@ -140,7 +141,7 @@
   .app {
     display: flex;
     flex-direction: column;
-    padding: 3rem 3rem;
+    padding: 4rem 3rem;
   }
   .app__header {
     order: 2;
