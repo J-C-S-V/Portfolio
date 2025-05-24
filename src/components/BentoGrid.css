@@ -63,8 +63,8 @@
   font-size: 1.2rem;
   padding: 0.4rem 1.2rem;
   border-radius: 12px;
-  background-color: var(--color-tag-bg);
-  color: var(--color-tag-text);
+  background-color: var(--color-bg-white);
+  color: var(--color-text-blue);
   font-weight: 500;
   cursor: default;
 }
@@ -74,7 +74,7 @@
   padding: 0.4rem 1.2rem;
   border-radius: 12px;
   background-color: var(--color-bg-dark);
-  color: var(--color-tag-text-dark);
+  color: var(--color-text-white);
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.1s ease-in-out;
@@ -83,7 +83,7 @@
 
 .project-tag-link:hover {
   background-color: var(--color-text-white);
-  color: var(--color-black-two);
+  color: var(--color-text-black);
 }
 
 .project-image {

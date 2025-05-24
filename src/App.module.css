@@ -3,24 +3,14 @@
 /* Base styles */
 :root {
   --color-text-black: #292929;
-  --color-black-two: #1f2937;
-  --color-card-dark: #1f2937;
   --color-bg-dark: #111827;
-  --color-primary: #3b82f6;
-  --color-secondary: #8b5cf6;
+  --color-text-blue-light: #3b82f6;
+  --color-text-blue: #1e40af;
   --color-text-white: #e1e1e1;
-  --color-primary-dark: #2563eb;
-  --color-text: #1f2937;
-  --color-text-light: #6b7280;
+  --color-bg-white: #e1e1e1;
   --color-bg-gradient: radial-gradient(circle, #4c39ff 0%, #090979 54%, #000000 100%);
-  --color-card: #ffffff;
-  --color-tag-bg: #dbeafe;
-  --color-tag-text: #1e40af;
-  --color-tag-bg-dark: #1e3a8a;
-  --color-tag-text-dark: #bfdbfe;
   --color-success: #16a34a;
   --font-inter: 'Inter', 'system-ui', sans-serif;
-  --transition: 0.3s ease-in-out;
 }
 
 .app {
@@ -48,7 +38,7 @@
   letter-spacing: 1rem;
   backdrop-filter: blur(10px);
   box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.228);
-  text-shadow: -4px 4px 2px var(--color-primary);
+  text-shadow: -4px 4px 2px var(--color-text-blue-light);
   padding: 1rem 4rem;
 }
 
@@ -61,7 +51,7 @@
 .app__link {
   text-decoration: none;
   background-color: var(--color-bg-dark);
-  color: var(--color-tag-text-dark);
+  color: var(--color-text-white);
   border: 1px solid var(--color-text-white);
   font-weight: 500;
   cursor: pointer;

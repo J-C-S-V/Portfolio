@@ -14,7 +14,7 @@
 .card__text-container {
   display: flex;
   flex-direction: column;
-  color: var(--color-primary);
+  color: var(--color-text-blue-light);
   margin-bottom: 3rem;
 }
 
@@ -34,7 +34,7 @@
 
 .card__line {
   width: 4px;
-  background-color: var(--color-primary);
+  background-color: var(--color-text-blue-light);
   height: 90%;
   border-radius: 1rem;
   margin: 0 1rem 0 0;
@@ -57,7 +57,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  color: var(--color-primary);
+  color: var(--color-text-blue-light);
 }
 
 .card__circle {
@@ -93,7 +93,7 @@
 }
 
 .card__link {
-  color: var(--color-primary);
+  color: var(--color-text-blue-light);
   text-decoration: none;
   cursor: pointer;
   &:hover {
