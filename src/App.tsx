@@ -1,21 +1,23 @@
 import { BentoGrid, BentoItem } from './components/BentoGrid';
 import projects from './data/projects.json';
-import './App.css';
+import styles from './App.module.css';
 import { ImageProfile, DescriptionProfile } from './components/Profile';
 import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <main className="app-container">
-      <header className="app-header">
-        <h1 className="app-title">
+    <main className={styles.app}>
+      <header className={styles['app__header']}>
+        <h1 className={styles['app__title']}>
           Featured&nbsp;&nbsp;Projects
         </h1>
-        <Link to="/about" style={{color: "white"}}>About</Link>
-        <Link to="/projects" style={{color: "white"}}>Projects</Link>
+        <div className={styles['app__links']}>
+          <Link to="/about" className={styles['app__link']}>About</Link>
+          <Link to="/projects" className={styles['app__link']}>Projects</Link>
+        </div>
       </header>
       
-      <main className="app-main">
+      <main className={styles['app__main']}>
         <BentoGrid>
           {projects.map((project, index) => (
             <BentoItem 
@@ -49,7 +51,7 @@ function App() {
             </BentoItem>
           ))}
         </BentoGrid>
-        <section className="profile">
+        <section className={styles.profile}>
           <ImageProfile />
           <DescriptionProfile />
         </section>
