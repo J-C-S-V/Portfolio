@@ -37,7 +37,7 @@ export const IconCSS = ({ width, height }: { width: number; height: number }) =>
       height={height}
       viewBox="0 0 512 512"
       style={{
-        color: '#1572B6'
+        color: 'rgb(0 15 145)'
       }}
     >
       <g id="c133de6af664cd4f011a55de6b001a2b">
@@ -292,7 +292,10 @@ export const IconGitLab = ({ width, height }: { width: number; height: number })
         fill="#FC6D26"
         d="M31.462 12.779l-.045-.115a14.748 14.748 0 00-5.856 2.634l-9.553 7.24A11225.6 11225.6 0 0022.1 27.14l6.673-4.997.019-.013a8.09 8.09 0 002.67-9.352z"
       ></path>
-      <path fill="#FCA326" d="M9.908 27.14l3.275 2.485 1.994 1.51a1.35 1.35 0 001.627 0l1.994-1.51 3.282-2.484s-2.835-2.14-6.092-4.603l-6.08 4.603z"></path>
+      <path
+        fill="#FCA326"
+        d="M9.908 27.14l3.275 2.485 1.994 1.51a1.35 1.35 0 001.627 0l1.994-1.51 3.282-2.484s-2.835-2.14-6.092-4.603l-6.08 4.603z"
+      ></path>
       <path
         fill="#FC6D26"
         d="M6.435 15.305A14.712 14.712 0 00.58 12.672l-.045.113a8.09 8.09 0 002.68 9.347l.016.012.038.03 6.635 4.967 6.105-4.603-9.573-7.233z"
@@ -315,7 +318,14 @@ export const IconBitbucket = ({ width, height }: { width: number; height: number
         fill="url(#paint0_linear_87_7932)"
       />
       <defs>
-        <linearGradient id="paint0_linear_87_7932" x1="30.7245" y1="14.1218" x2="20.5764" y2="28.0753" gradientUnits="userSpaceOnUse">
+        <linearGradient
+          id="paint0_linear_87_7932"
+          x1="30.7245"
+          y1="14.1218"
+          x2="20.5764"
+          y2="28.0753"
+          gradientUnits="userSpaceOnUse"
+        >
           <stop offset="0.18" stop-color="#0052CC" />
           <stop offset="1" stop-color="#2684FF" />
         </linearGradient>
@@ -441,7 +451,14 @@ export const IconTrello = ({ width, height }: { width: number; height: number })
         fill="url(#paint0_linear_87_7663)"
       />
       <defs>
-        <linearGradient id="paint0_linear_87_7663" x1="16.0076" y1="28" x2="16.0076" y2="4" gradientUnits="userSpaceOnUse">
+        <linearGradient
+          id="paint0_linear_87_7663"
+          x1="16.0076"
+          y1="28"
+          x2="16.0076"
+          y2="4"
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stop-color="#0052CC" />
           <stop offset="0.51698" stop-color="#217EF8" />
           <stop offset="1" stop-color="#2684FF" />
@@ -453,7 +470,13 @@ export const IconTrello = ({ width, height }: { width: number; height: number })
 
 export const IconConfluence = ({ width, height }: { width: number; height: number }) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width={width} height={height} viewBox="0 0 32 32">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+      width={width}
+      height={height}
+      viewBox="0 0 32 32"
+    >
       <defs>
         <linearGradient
           id="a"
@@ -467,9 +490,16 @@ export const IconConfluence = ({ width, height }: { width: number; height: numbe
           <stop offset="0.18" stop-color="#0052cc" />
           <stop offset="1" stop-color="#2684ff" />
         </linearGradient>
-        <linearGradient id="b" x1="621.442" y1="1817.567" x2="603.915" y2="1827.64" gradientTransform="matrix(-1, 0, 0, 1, 624.83, -1816.71)" xlinkHref="#a" />
+        <linearGradient
+          id="b"
+          x1="621.442"
+          y1="1817.567"
+          x2="603.915"
+          y2="1827.64"
+          gradientTransform="matrix(-1, 0, 0, 1, 624.83, -1816.71)"
+          xlinkHref="#a"
+        />
       </defs>
-      <title>file_type_confluence</title>
       <path
         d="M3.015,23.087c-.289.472-.614,1.02-.891,1.456a.892.892,0,0,0,.3,1.212l5.792,3.564a.89.89,0,0,0,1.226-.29l.008-.013c.231-.387.53-.891.855-1.43,2.294-3.787,4.6-3.323,8.763-1.336l5.743,2.731A.892.892,0,0,0,26,28.559l.011-.024L28.766,22.3a.891.891,0,0,0-.445-1.167c-1.212-.57-3.622-1.707-5.792-2.754C14.724,14.586,8.09,14.831,3.015,23.087Z"
         style={{
@@ -842,7 +872,6 @@ export const IconPhotoShop = ({ width, height }: { width: number; height: number
       }}
       viewBox="0 0 32 32"
     >
-      <title>file_type_photoshop</title>
       <path
         d="M3.167,3.517H28.833V28.483H3.167Z"
         style={{
@@ -861,7 +890,10 @@ export const IconFigma = ({ width, height }: { width: number; height: number }) 
         fill="#1ABCFE"
         d="M8.55 8c0-1.289 1.019-2.333 2.275-2.333C12.082 5.667 13.1 6.71 13.1 8c0 1.289-1.018 2.333-2.275 2.333C9.57 10.333 8.55 9.29 8.55 8z"
       />
-      <path fill="#0ACF83" d="M4 12.667c0-1.289 1.019-2.334 2.275-2.334H8.55v2.334C8.55 13.955 7.531 15 6.275 15S4 13.955 4 12.667z" />
+      <path
+        fill="#0ACF83"
+        d="M4 12.667c0-1.289 1.019-2.334 2.275-2.334H8.55v2.334C8.55 13.955 7.531 15 6.275 15S4 13.955 4 12.667z"
+      />
       <path fill="#FF7262" d="M8.55 1v4.667h2.275c1.257 0 2.275-1.045 2.275-2.334C13.1 2.045 12.082 1 10.825 1H8.55z" />
       <path fill="#F24E1E" d="M4 3.333c0 1.289 1.019 2.334 2.275 2.334H8.55V1H6.275C5.019 1 4 2.045 4 3.333z" />
       <path fill="#A259FF" d="M4 8c0 1.289 1.019 2.333 2.275 2.333H8.55V5.667H6.275C5.019 5.667 4 6.71 4 8z" />
@@ -899,7 +931,6 @@ export const IconVsCode = ({ width, height }: { width: number; height: number })
       }}
       viewBox="0 0 32 32"
     >
-      <title>file_type_vscode</title>
       <path d="M29.01,5.03,23.244,2.254a1.742,1.742,0,0,0-1.989.338L2.38,19.8A1.166,1.166,0,0,0,2.3,21.447c.025.027.05.053.077.077l1.541,1.4a1.165,1.165,0,0,0,1.489.066L28.142,5.75A1.158,1.158,0,0,1,30,6.672V6.605A1.748,1.748,0,0,0,29.01,5.03Z" />
       <path d="M29.01,26.97l-5.766,2.777a1.745,1.745,0,0,1-1.989-.338L2.38,12.2A1.166,1.166,0,0,1,2.3,10.553c.025-.027.05-.053.077-.077l1.541-1.4A1.165,1.165,0,0,1,5.41,9.01L28.142,26.25A1.158,1.158,0,0,0,30,25.328V25.4A1.749,1.749,0,0,1,29.01,26.97Z" />
       <path d="M23.244,29.747a1.745,1.745,0,0,1-1.989-.338A1.025,1.025,0,0,0,23,28.684V3.316a1.024,1.024,0,0,0-1.749-.724,1.744,1.744,0,0,1,1.989-.339l5.765,2.772A1.748,1.748,0,0,1,30,6.6V25.4a1.748,1.748,0,0,1-.991,1.576Z" />
@@ -919,7 +950,10 @@ export const IconWebpack = ({ width, height }: { width: number; height: number }
       preserveAspectRatio="xMidYMid"
     >
       <g>
-        <polygon fill="#FFFFFF" points="128 0.0483018868 256 72.4528302 256 217.310189 128 289.714717 0 217.310189 0 72.4528302"></polygon>
+        <polygon
+          fill="#FFFFFF"
+          points="128 0.0483018868 256 72.4528302 256 217.310189 128 289.714717 0 217.310189 0 72.4528302"
+        ></polygon>
         <path
           d="M233.153208,212.286792 L132.250566,269.427925 L132.250566,224.990189 L195.139623,190.357736 L233.153208,212.286792 Z M240.060377,206.055849 L240.060377,86.6535849 L203.157736,107.954717 L203.157736,184.754717 L240.060377,206.055849 Z M22.4603774,212.286792 L123.363019,269.379623 L123.363019,224.941887 L60.4739623,190.357736 L22.4603774,212.286792 L22.4603774,212.286792 Z M15.5532075,206.055849 L15.5532075,86.6535849 L52.4558491,107.954717 L52.4558491,184.754717 L15.5532075,206.055849 L15.5532075,206.055849 Z M19.8520755,78.925283 L123.363019,20.3833962 L123.363019,63.3720755 L57.0445283,99.84 L56.5132075,100.129811 L19.8520755,78.925283 L19.8520755,78.925283 Z M235.713208,78.925283 L132.250566,20.3833962 L132.250566,63.3720755 L198.520755,99.8883019 L199.052075,100.178113 L235.713208,78.925283 L235.713208,78.925283 Z"
           fill="#8ED6FB"
@@ -949,11 +983,25 @@ export const IconPython = ({ width, height }: { width: number; height: number })
         fill="url(#paint1_linear_87_8204)"
       />
       <defs>
-        <linearGradient id="paint0_linear_87_8204" x1="12.4809" y1="2" x2="12.4809" y2="22.7407" gradientUnits="userSpaceOnUse">
+        <linearGradient
+          id="paint0_linear_87_8204"
+          x1="12.4809"
+          y1="2"
+          x2="12.4809"
+          y2="22.7407"
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stop-color="#327EBD" />
           <stop offset="1" stop-color="#1565A7" />
         </linearGradient>
-        <linearGradient id="paint1_linear_87_8204" x1="19.519" y1="9.25928" x2="19.519" y2="30" gradientUnits="userSpaceOnUse">
+        <linearGradient
+          id="paint1_linear_87_8204"
+          x1="19.519"
+          y1="9.25928"
+          x2="19.519"
+          y2="30"
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stop-color="#FFDA4B" />
           <stop offset="1" stop-color="#F9C600" />
         </linearGradient>
