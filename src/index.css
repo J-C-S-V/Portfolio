@@ -16,6 +16,19 @@ body {
   background: var(--color-bg-gradient);
 }
 
+/* Bento grid projects */
+.bento-item-content-8 {
+  grid-column: 1 / 3;
+}
+
+.bento-item-content-11 {
+  grid-column: 1 / 3;
+}
+
+.bento-item-content-12 {
+  grid-column: 3 / 5;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

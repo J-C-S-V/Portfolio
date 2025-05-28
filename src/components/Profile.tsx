@@ -1,5 +1,6 @@
 "use client";
 import styles from "./Profile.module.css";
+import { Link } from "react-router-dom";
 
 export const ImageProfile = () => {
   return (
@@ -13,7 +14,7 @@ export const ImageProfile = () => {
       />
       <div className={styles["card__work-tag"]}>
         <div className={styles["card__circle"]}></div>
-        <span>¡Open to work! 🚀</span>
+        <span>Open to work!</span>
       </div>
     </div>
   );
@@ -41,7 +42,7 @@ export const DescriptionProfile = () => {
           {/* <a href="/about">Read more</a> */}
         </p>
         <p className={styles["card__description"]}>
-          I am currently looking for new challenges to grow and improve my skills while building high quality products/services.
+          I am currently looking for new challenges to grow and improve my skills while building high quality products/services. <Link className={styles['card__link']} to="/about">Read more...</Link>
         </p>
       </div>
     </article>
