@@ -128,3 +128,12 @@
     transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 992px) {
+  .bento-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    order: 2;
+  }
+}

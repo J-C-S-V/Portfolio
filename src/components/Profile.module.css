@@ -128,11 +128,6 @@
 
 /* Responsive */
 @media (max-width: 1366px) {
-  .bento-grid {
-    grid-template-columns: repeat(6, 1fr);
-    gap: 2rem;
-  }
-
   .bento-item-content-0 {
     grid-column: 1 / 3;
   }
