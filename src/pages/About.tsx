@@ -28,7 +28,9 @@ import {
   IconVsCode,
   IconWebpack,
   IconPython,
-  IconNpm
+  IconWordpress,
+  IconNpm,
+  IconGrunt
 } from '../icons/Icons';
 
 export const About = () => {
@@ -38,24 +40,29 @@ export const About = () => {
     <div className={styles.about}>
       <h1 className={styles['about__title']}>About</h1>
       <div className={styles['about__content']}>
-        <p className={styles['about__description']}>
+        <p className={styles['about__intro']}>
           Firstly, if you're reading this, I wish you the very best and may your dreams all come true ✨
         </p>
-        <p className={styles['about__description']}>
+        <p className={styles['about__intro']}>
           My name is Juan Sanchez. I'm a web developer with +2 years of experience specializing in front-end
-          development. I have a strong passion for creating beautiful and enhanced user interfaces.
+          development. I have a passion for creating beautiful and engaging user interfaces. What I love the most is web
+          applications, I find it very rewarding and challenging. Brilliant, Duolingo, and many other apps are some of
+          my favorites.
         </p>
+        <p className={styles['about__intro']}>
+          I am currently looking for new opportunities to grow and improve my skills while building high quality
+          products and services.
+        </p>
+        <h2 className={styles['about__h2']}>Who am I?</h2>
         <p className={styles['about__description']}>
-          I am currently looking for new challenges to grow and improve my skills while building high quality products
-          and services.
+          I consider myself a constant learner, always looking for new challenges to improve my skills and knowledge. I
+          like to build not just the right thing, but the thing right 😉. I prioritize best practices—aligned with team
+          consensus—and use the best tools to build the best possible product. I'm also passionate about mentoring
+          others, helping teammates grow and improve their skills—because when we support each other, everyone wins.
+          Creativity plays a central role in my work as well, I enjoy thinking outside the box and finding innovative
+          ways to solve problems.
         </p>
-        <h2 className={styles['about__skills-title']}>Who I am</h2>
-        <p className={styles['about__description']}>
-          I consider myself a constant learner, always looking for new challenges to improve my skills and knowledge.
-          Comunication is important those make teams and people in general to be successful, to achieve things that
-          otherwise wouldn't be possible.
-        </p>
-        <h2>Tech stack</h2>
+        <h2 className={styles['about__h2']}>Tech stack</h2>
         <p className={styles['about__description']}>Some tools I feel comfortable with:</p>
         <ul className={styles['about__skills-list']}>
           <li>
@@ -198,19 +205,38 @@ export const About = () => {
               <IconNpm width={widthIcon} height={heightIcon} />
             </div>
           </li>
+          <li>
+            <div data-tooltip="Wordpress" className={styles['about__skills-icon']}>
+              <IconWordpress width={widthIcon} height={heightIcon} />
+            </div>
+          </li>
+          <li>
+            <div data-tooltip="Grunt" className={styles['about__skills-icon']}>
+              <IconGrunt width={widthIcon} height={heightIcon} />
+            </div>
+          </li>
         </ul>
-        <h2>Hobbies</h2>
+        <h2 className={styles['about__h2']}>&nbsp;Hobbies&nbsp;</h2>
         <p className={styles['about__description']}>
-          Some of my hobbies include playing video games, playing chess, working out, playing the guitar (piano and
-          violin as well 😀), listening to music, listening to podcasts, and reading books.
+          Some of my hobbies include playing video games, I'm a Nintendo lover 😍, I play mainly Mario Kart and platform
+          games. I also enjoy playing chess ♟️, I'm not good at it but I try to improve and develop other skills, I play
+          mainly on chess.com. I like working out 🚴‍♂️, mainly aerobic sports like cycling and running. I studied music at
+          the uni 🎓🎶, so I know how to play the guitar, the piano and the violin as well 🎸🎹🎻.
         </p>
-        <h2>What I'm learning</h2>
-        <p>
+        <p className={styles['about__description']}>
+          I also enjoy listening to music, from Chopin, through Rammstein, and up to the OST of Undertale. Listening to
+          podcasts 🎙 is a good source of new knowledge, and I like doing that while washing the dishes or any other
+          activity where I don't have to think too much. The last thing I could list here is animation 🎨✨, I'm getting
+          into it because I think it's a powerful way to communicate ideas.
+        </p>
+        <h2 className={`${styles['about__h2']} ${styles['about__h2-learning']}`}>What I'm learning</h2>
+        <p className={styles['about__description']}>
           Currently, I'm learning backend development with Django and Python. I'm also learning about AI and machine
-          learning to implement them in my projects.
+          learning to implement them in my projects. Finally, I'm reviewing my math knowledge, I believe the foundations
+          are key to understanding complex concepts, not just learning by heart the algorithms of solving maths
+          problems, but to really understand the why behind them.
         </p>
       </div>
-
       <Link to="/" className={styles['about__link']}>
         Home
       </Link>
