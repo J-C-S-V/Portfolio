@@ -38,7 +38,12 @@ export const About = () => {
   const heightIcon = 40;
   return (
     <div className={styles.about}>
-      <h1 className={styles['about__title']}>About</h1>
+      <div className={styles['about__header']}>
+        <h1 className={styles['about__title']}>About</h1>
+        <Link to="/" className={styles['about__link']}>
+          Home
+        </Link>
+      </div>
       <div className={styles['about__content']}>
         <p className={styles['about__intro']}>
           Firstly, if you're reading this, I wish you the very best and may your dreams all come true ✨
@@ -237,9 +242,6 @@ export const About = () => {
           problems, but to really understand the why behind them.
         </p>
       </div>
-      <Link to="/" className={styles['about__link']}>
-        Home
-      </Link>
     </div>
   );
 };
