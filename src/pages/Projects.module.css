@@ -24,6 +24,14 @@
   margin-bottom: 2rem;
 }
 
+.projects__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
 .projects__content {
   padding: 4rem;
 }
@@ -45,8 +53,8 @@ li {
 
 .projects__link {
   position: absolute;
-  top: 7rem;
-  right: 12rem;
+  top: 0;
+  right: 0;
   font-size: 1.6rem;
   padding: 0.4rem 1.2rem;
   border-radius: 1.6rem;
@@ -67,6 +75,7 @@ li {
   grid-column: 1 / 5;
 }
 
+/* Animations */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -76,8 +85,25 @@ li {
   }
 }
 
+/* Responsive */
 @media screen and (max-width: 1366px) {
   .projects {
     height: auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .projects__grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .projects {
+    padding: 4rem 3rem;
+  }
+
+  .projects__content {
+    padding: 4rem 0;
   }
 }

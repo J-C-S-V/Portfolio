@@ -47,20 +47,15 @@ This project is my portfolio website. It is a Single Page Application (SPA) buil
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
     <li><a href="https://git-scm.com/">Git</a></li>
-    <li><a href="https://motion.dev/">motion</a></li>
+
   </ul>
 </details>
 
-### Key features <a name="key-features"></a>
-
-- **[Customizable BPM]**
-- **[Minimalistic user interface]**
-- **[Single Page Application]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://j-c-s-v.github.io/portfolio/)
+- [Live Demo Link](https://juan-sanchez-portfolio.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,11 +71,33 @@ Clone this repository to your desired folder:
 
 ### Install
 
-No need to install any dependencies for this project.
+`npm install`
 
 ### Usage
 
-Open the `index.html` file in your browser to view the project.
+`npm run dev`
+
+### Run tests
+
+Tests will be added in the future.
+
+### Deployment
+
+You can deploy this project using:
+
+- [GitHub Pages](https://pages.github.com/)
+
+<p align="right">(
+<a href="#readme-top">back to top</a>)
+</p>
+
+## 👷 Author <a name="author"></a>
+
+👷 **Juan Sanchez**
+
+- GitHub: [Juan Sanchez](https://github.com/J-C-S-V)
+- Twitter: [Juan Sanchez](https://twitter.com/juansan0)
+- LinkedIn: [Juan Sanchez](https://www.linkedin.com/in/sanchez-juan-carlos)
 
 ### Run tests
 
@@ -106,9 +123,9 @@ You can deploy this project using:
 
 ## 🔭 Future features <a name="future-features"></a>
 
-- [ ] **[Personalized beats]**
-- [ ] **[Tempo tap detection]**
-- [ ] **[Custom subdivisions]**
+- [ ] **[Tests]**
+- [ ] **[Animations]**
+- [ ] **[Dark mode]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,12 +142,6 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 If you get inspired by this project you can give a star to this project here on Github 🙌
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank Reaper for providing the audio engine for this project 🚀
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
